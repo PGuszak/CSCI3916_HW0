@@ -1,18 +1,16 @@
 HEADERS → MEANING/EXPLANATION
 
-Expires →
-Date →
-Cache-Control →
-ETag →
-Vary →
-Vary →
-Content-
-Content-Encoding →
-X-Content-Type-Options →
+Expires → This header contains the date and time.  But after it's the time stamp is stale and has already expired.  
+Date →  This header just explains the date and time when the message origionated
+Cache-Control → Cache-Control specifys directives for all the cashing mechanisms for both of the requests and responces.
+ETag → This header is used for internet protcol for web cashe vailidation
+Vary Origin→ This tells the HTTP cashe which request header to find when looking for an object
+Vary  X-Origin→ This tells the HTTP cashe which request header to find when looking for an object
+Content-Type → Used to indicate the resources media type
+Content-Encoding → Used to compress the media type
+X-Content-Type-Options → 
 X-Frame-Options →
 X-XSS-Protection →
 Server →
 Alt-Svc →
 Transfer-Encoding →
-
-Delete this later
