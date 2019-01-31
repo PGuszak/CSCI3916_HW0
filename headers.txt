@@ -8,9 +8,11 @@ Vary Origin→ This tells the HTTP cashe which request header to find when looki
 Vary  X-Origin→ This tells the HTTP cashe which request header to find when looking for an object
 Content-Type → Used to indicate the resources media type
 Content-Encoding → Used to compress the media type
-X-Content-Type-Options → 
-X-Frame-Options →
-X-XSS-Protection →
-Server →
-Alt-Svc →
-Transfer-Encoding →
+X-Content-Type-Options → This header indicates the MIME types from the Content-Type
+X-Frame-Options → This response indicates whether or not to render a page
+    <frame>, <iframe>, <embed>, <object> 
+X-XSS-Protection → This response is from a handful of internet browser (Chrtome, IE)
+    which stops the pages from loading when they detect reflected cross-site scripting (XSS) attacks.
+Server → This head contains info about the software the is used by the origional server to handle requests.
+Alt-Svc → Used to list all the alternate ways to reach websites.
+Transfer-Encoding → Transfer-Encoding specifies the encoding ued to SAFELY transfer the entity to the user.
