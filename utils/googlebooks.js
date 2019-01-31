@@ -7,8 +7,17 @@ module.exports = async (phrase) => {
             q: `${phrase}`
         }
     })
+    //I edited from this line to line 19
+    var obj =
+        {
+        data: results.data,
+        status: results.status,
+        statusText: results.statusText,
+        headers: results.headers,
+        requestHeader: results.requestHeader
+    };
+    return JSON.stringify(obj.data);//change this lines for the code block in the assignmenty sheet
 
-    return JSON.stringify(results.data);
 }
 
 /*  console.log(results.data);

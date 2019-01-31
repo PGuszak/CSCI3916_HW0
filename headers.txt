@@ -1,0 +1,16 @@
+HEADERS → MEANING/EXPLANATION
+
+Expires →
+Date →
+Cache-Control →
+ETag →
+Vary →
+Vary →
+Content-
+Content-Encoding →
+X-Content-Type-Options →
+X-Frame-Options →
+X-XSS-Protection →
+Server →
+Alt-Svc →
+Transfer-Encoding →
